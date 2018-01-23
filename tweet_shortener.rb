@@ -34,3 +34,6 @@ def selective_tweet_shortener(tweet)
     return word_substituter(tweet)
   end
 end
+
+def shortened_tweet_truncator(tweet)
+  tweet[0..136] + "..."
