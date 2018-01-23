@@ -5,7 +5,7 @@ def dictionary
   "be" => 'b',
   "you" => 'u',
   "at" => '@',
-  "and" => "@"}
+  "and" => "&"}
 end
 
 def word_substituter(tweet)
