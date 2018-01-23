@@ -13,7 +13,7 @@ def word_substituter(tweet)
   dict = dictionary
   tweet.each_with_index do |word, index|
     if dict.keys.include?(word.downcase)
-      tweet[index] = dict[word]
+      tweet[index] = dict[word.downcase]
     end
   end
 
