@@ -12,7 +12,7 @@ def word_substituter(tweet)
   tweet = tweet.split(" ")
   dict = dictionary
   tweet.each_with_index do |word, index|
-    if dict.keys.include?(word)
+    if dict.keys.include?(word.downcase)
       tweet[index] = dict[word]
     end
   end
