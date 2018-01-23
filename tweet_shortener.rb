@@ -38,6 +38,3 @@ end
 def shortened_tweet_truncator(tweet)
   tweet[0..136] + "..."
 end
-
-
-
